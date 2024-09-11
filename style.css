@@ -10,7 +10,55 @@
 }
 
 body {
-    background-color: rgb(133, 119, 119);
+    background-color:rgb(88, 85, 85)
     
 }
 
+
+html {
+    width: 100vw;
+    height: 100vw;
+    font-size: 62.5%;
+    overflow-x: hidden;   /*tira a barra de rolagem*/
+
+}
+
+/*Menu*/
+
+.content
+{
+    width: 100vw;
+    height: 70px;
+    display: flex;                  /*Um item do lado do outro*/
+    justify-content: space-around; /*Espaçamento entre os itens*/
+    align-items: center;            /*alinhar ao centro*/
+    background-color: #1f1e1f;
+    position: fixed;
+    padding-left: 30rem;
+
+
+}
+
+.logo 
+{
+ width: 70px;
+ height: auto;
+ cursor: pointer; /*Aparecer o cursor*/
+ display:flex;
+ align-items: center;
+
+}
+.logo h3 {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.first-section 
+{
+    height: 100vh;
+    width: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
