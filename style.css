@@ -9,10 +9,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    background-color:rgb(88, 85, 85)
-    
-}
+
 
 
 html {
@@ -28,7 +25,7 @@ html {
 .content
 {
     width: 100vw;
-    height: 70px;
+    height: 55px;
     display: flex;                  /*Um item do lado do outro*/
     justify-content: space-around; /*Espaçamento entre os itens*/
     align-items: center;            /*alinhar ao centro*/
@@ -58,6 +55,11 @@ html {
     font-size: 1.6rem;
 }
 
+.logo h3:hover {
+    color: #ffc506;
+    transition: all 200ms ease-in;
+}
+
 
 
 .content .list-menu{
@@ -73,7 +75,7 @@ html {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 500;
-  transition: all 200ms ease-in;
+  transition: all 300ms ease-in;
 
 }
 
@@ -98,11 +100,52 @@ html {
     align-items: center;
 }
 
+.first-section .conteudo-principal
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .first-section h1 {
 
     color: #ffc506;
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
+
+}
+
+.first-section h2{
+
+    color: rgb(177,177,177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    align-items: center;
+     
+
+}
+
+.btn button
+{
+  width: 230px;
+  height: 60px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #ffc506;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  margin-top: 5rem;
+
+}
+
+.btn button:hover {
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
 
 }
