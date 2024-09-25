@@ -89,7 +89,7 @@ html {
 {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(29,29,29, 0.8), rgba(29,29,29, 0.8)),url(/src/img/mao-em-luvas-de-hamburguer-segurando-o-hamburguer-de-carne-no-fundo-preto.jpg);
+    background-image: linear-gradient(rgba(29,29,29, 0.8), rgba(29,29,29, 0.8)),url(mao-em-luvas-de-hamburguer-segurando-o-hamburguer-de-carne-no-fundo-preto.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
